@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer rim of the stopwatch, centered at (54, 54) with radius 28 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,23C38.54,23 26,35.54 26,51C26,66.46 38.54,79 54,79C69.46,79 82,66.46 82,51C82,35.54 69.46,23 54,23ZM54,73C41.85,73 32,63.15 32,51C32,38.85 41.85,29 54,29C66.15,29 76,38.85 76,51C76,63.15 66.15,73 54,73Z" />
+    
+    <!-- Top button (crown) of the stopwatch -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M48,15h12v4h-12z" />
+    <path
+        android:fillColor="#B71C1C"
+        android:pathData="M52,19h4v4h-4z" />
+
+    <!-- Side split lap buttons -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M78,28l4.24,4.24l-2.83,2.83l-4.24,-4.24z" />
+    
+    <!-- Clock hands (indicating racing speed) -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M52,33h4v19h-4z" />
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M54,51m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,51h15v3h-15z" />
+</vector>

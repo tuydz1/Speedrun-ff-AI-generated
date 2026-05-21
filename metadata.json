@@ -1,0 +1,6 @@
+{
+  "name": "FF PureTimer Pro",
+  "description": "Minimalist floating overlay speedrun status bar and automatic landing-to-finish speedrun timer for Free Fire.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
